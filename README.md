@@ -16,3 +16,15 @@ The project demonstrates practical web scraping concepts, including HTTP request
 - Enforces a maximum download limit
 - Uses rate limiting to avoid server abuse
 - Includes basic error handling via HTTP status checks
+
+### Prerequisites:
+Before running the script, ensure you have the following installed:
+- **Python 3.8+** (recommended)
+- Required Python libraries:
+  - `requests`
+  - `beautifulsoup4`
+
+Install dependencies:
+```bash
+pip install requests beautifulsoup4
+```
