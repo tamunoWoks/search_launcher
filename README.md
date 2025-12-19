@@ -75,3 +75,8 @@ Sleep (rate limit)
 Stop condition met?
  → END
 ```
+
+### Usage:
+```bash
+python downloadXkcdComics.py
+```
