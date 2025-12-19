@@ -80,3 +80,5 @@ Stop condition met?
 ```bash
 python downloadXkcdComics.py
 ```
+### Legal Notice:
+XKCD comics are copyrighted by Randall Munroe. This script is intended for educational and personal use only.
