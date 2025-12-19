@@ -39,3 +39,13 @@ project-directory/
     ├── comic2.png
     └── ...
 ```
+
+### Configuration:
+```python
+BASE_URL = 'https://xkcd.com'
+MAX_DOWNLOADS = 20
+```
+| Variable | Description |
+|--------|-------------|
+| BASE_URL | XKCD base URL |
+| MAX_DOWNLOADS | Maximum number of comics per run |
