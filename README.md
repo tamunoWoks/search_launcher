@@ -57,3 +57,21 @@ MAX_DOWNLOADS = 20
 4. Save it locally
 5. Navigate to the previous comic
 6. Repeat until a stop condition is met
+
+### Control Flow:
+```text
+START
+ ↓
+Download page
+ ↓
+Download image
+ ↓
+Save locally
+ ↓
+Follow previous link
+ ↓
+Sleep (rate limit)
+ ↓
+Stop condition met?
+ → END
+```
