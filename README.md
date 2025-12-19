@@ -49,3 +49,11 @@ MAX_DOWNLOADS = 20
 |--------|-------------|
 | BASE_URL | XKCD base URL |
 | MAX_DOWNLOADS | Maximum number of comics per run |
+
+### How It Works:
+1. Load the XKCD homepage
+2. Parse the page
+3. Download the comic image
+4. Save it locally
+5. Navigate to the previous comic
+6. Repeat until a stop condition is met
